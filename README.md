@@ -5,6 +5,12 @@
 
 This package allows you to use [jest](https://facebook.github.io/jest/) to run your atom's extension tests.
 
+**Please note**, that this package may not satisfy your needs due to some difficulties with integration. Not solved issues:
+
+* no global atom variable
+* keyboard interaction does not work in watch mode :(
+* on some projects it may fail with `TypeError: Cannot redefine property: length` error in oniguruma package. There is [an issue](https://github.com/facebook/jest/issues/3552) in jest repository regarding this case.
+
 ## Installation
 
 ```
