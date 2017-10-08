@@ -1,7 +1,7 @@
 # Atom Jest Test Runner
 [![Build Status](https://travis-ci.org/SleepWalker/atom-jest-test-runner.svg?branch=master)](https://travis-ci.org/SleepWalker/atom-jest-test-runner)
 [![Build status](https://ci.appveyor.com/api/projects/status/4f3ccj7mpr6fehq7/branch/master?svg=true)](https://ci.appveyor.com/project/SleepWalker/atom-jest-test-runner/branch/master)
-[![Build Status](https://travis-ci.org/SleepWalker/atom-jest-test-runner.svg?branch=master)](https://travis-ci.org/SleepWalker/atom-jest-test-runner)
+[![Dependency Status](https://david-dm.org/SleepWalker/atom-jest-test-runner.svg)](https://david-dm.org/SleepWalker/atom-jest-test-runner)
 
 This package allows you to use [jest](https://facebook.github.io/jest/) to run your atom's extension tests.
 
