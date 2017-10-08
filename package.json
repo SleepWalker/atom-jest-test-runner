@@ -1,0 +1,39 @@
+{
+  "name": "atom-jest-test-runner",
+  "version": "1.0.0",
+  "description": "Run your Atom package tests using jest",
+  "main": "lib/index.js",
+  "repository": "https://github.com/SleepWalker/atom-jest-test-runner",
+  "keywords": [
+    "atom",
+    "jest",
+    "tests"
+  ],
+  "author": "SleepWalker",
+  "license": "MIT",
+  "scripts": {
+    "test": "atom --test test",
+    "test:watch": "TEST_MODE='watch' npm t",
+    "lint": "eslint lib test",
+    "format": "prettier-eslint --write"
+  },
+  "atomTestRunner": "./lib/index.js",
+  "jest": {
+    "clearMocks": true,
+    "roots": [
+      "lib",
+      "test"
+    ]
+  },
+  "dependencies": {
+    "jest-cli": "21.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.0.1",
+    "babel-preset-env": "1.6.0",
+    "eslint": "4.8.0",
+    "jest": "21.2.1",
+    "prettier-eslint": "8.2.0",
+    "prettier-eslint-cli": "^4.4.0"
+  }
+}
